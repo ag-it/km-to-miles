@@ -2,9 +2,9 @@
 
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:rim="http://www.blackberry.com/ns/widgets"
-	version="1.0.0.0" id="Day">
+	version="1.0.0.0" id="km2mi">
 
-  <name>What day is it?</name>
+  <name>KM 2 Miles</name>
 
   <author>Alex Guilmoto</author>
 
@@ -16,8 +16,6 @@
 	<feature id="blackberry.invoke" version="1.0.0.0" required="true"/>
 	<feature id="blackberry.connection" />
   
-  <icon rim:hover="false" src="res/icon/blackberry/114by114_00005.png" />
-  <icon rim:hover="true" src="res/icon/blackberry/114by114_00005.png" />
   
   <rim:permissions>
     <rim:permit></rim:permit>
@@ -29,6 +27,6 @@
     <rim:transitionEffect type="fadeOut" />
   </rim:loadingScreen>
 
-  <content src="whatdayisit.html" />
+  <content src="index.html" />
 
 </widget>
